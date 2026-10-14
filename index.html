@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Кейс №2 — Отчёт</title>
+<style>
+body { font-family: Arial; max-width: 900px; margin: 40px auto; padding: 20px; background: #f0f2f5; }
+h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+.card { background: white; padding: 25px; border-radius: 10px; margin-bottom: 25px; }
+code { background: #eef2f5; padding: 3px 8px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>Кейс №2 — Настройка сети и сервисов</h1>
+<div class="card">
+<h2>Выполненные задачи</h2>
+<ul>
+<li>VirtualBox + 2 VM</li>
+<li>Ubuntu Server 24.04.3 LTS</li>
+<li>Mikrotik CHR 7.23.5</li>
+<li>Локальная сеть 10.0.5.0/24</li>
+<li>DHCP, DNS, NAT на Mikrotik</li>
+<li>nginx на Ubuntu (порт 8080)</li>
+<li>Nextcloud 34.0.4 (порт 80)</li>
+<li>Проброс портов 8080 → 10.0.5.200:80</li>
+</ul>
+</div>
+<div class="card">
+<h2>Адресация</h2>
+<ul>
+<li>Mikrotik lan: <code>10.0.5.1/24</code></li>
+<li>Mikrotik wan: <code>192.168.1.101/24</code></li>
+<li>Ubuntu enp0s3: <code>10.0.5.200/24</code></li>
+</ul>
+</div>
+<div class="card">
+<h2>Технологии</h2>
+<ul>
+<li>VirtualBox 7.x</li>
+<li>Ubuntu Server 24.04.3 LTS</li>
+<li>Mikrotik RouterOS 7.23.5</li>
+<li>nginx 1.24.0</li>
+<li>Nextcloud 34.0.4 (snap)</li>
+</ul>
+</div>
+<p style="text-align: center; color: #888;">2026 — Отчёт по практике ПМ.02, часть 1</p>
+</body>
+</html>
